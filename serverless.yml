@@ -1,4 +1,4 @@
-service: sangeetha-project
+service: secret-management
 frameworkVersion: '3'
 
 provider:
@@ -16,7 +16,7 @@ functions:
           path: /
           method: get
     environment:
-      ACCESS_KEY: ${ssm:sangee-parameter}
+      ACCESS_KEY: ${ssm:priya-ps}
 
 plugins:
   -serverless-offline
