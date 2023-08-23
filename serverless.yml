@@ -1,4 +1,4 @@
-service: secret-management
+service: secret-mgmt
 frameworkVersion: '3'
 
 provider:
